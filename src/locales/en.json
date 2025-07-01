@@ -1,0 +1,509 @@
+
+{
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "sales": "Sales",
+    "purchases": "Purchases & Expenses",
+    "inventory": "Inventory",
+    "customers": "Customers",
+    "reports": "Reports",
+    "settings": "Settings",
+    "employees": "Employees",
+    "suppliers": "Suppliers"
+  },
+  "userMenu": {
+    "myAccount": "My Account",
+    "shopOwner": "Shop Owner",
+    "email": "owner@nirobmill.com",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "language": "Language",
+    "english": "English",
+    "bengali": "Bengali",
+    "logout": "Log out"
+  },
+  "login": {
+    "title": "Welcome Back",
+    "description": "Enter your credentials to access your dashboard.",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "button": "Log In",
+    "footer": "Use default credentials to log in.",
+    "toast": {
+      "successTitle": "Login Successful",
+      "successDescription": "Welcome back! Redirecting to your dashboard.",
+      "errorTitle": "Login Failed",
+      "errorDescription": "Invalid email or password. Please try again."
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "description": "Here's a summary of your shop's performance.",
+    "tabs": { "daily": "Daily", "weekly": "Weekly", "monthly": "Monthly" },
+    "stats": {
+      "numSales": "Number of Sales",
+      "sellAmount": "Sell Amount",
+      "dueAmount": "Due Amount",
+      "paidAmount": "Paid Amount",
+      "salesToday": "Total sales today",
+      "revenueToday": "Total revenue today",
+      "outstandingToday": "Outstanding from today's sales",
+      "paidToday": "Payments received today",
+      "salesWeek": "Total sales this week",
+      "revenueWeek": "Total revenue this week",
+      "outstandingWeek": "Outstanding from this week's sales",
+      "paidWeek": "Payments received this week",
+      "salesMonth": "Total sales this month",
+      "revenueMonth": "Total revenue this month",
+      "outstandingMonth": "Total outstanding due",
+      "paidMonth": "Total payments received"
+    },
+    "topProducts": {
+      "today": "Top Selling Products (Today)",
+      "week": "Top Selling Products (This Week)",
+      "month": "Top Selling Products (Month)",
+      "product": "Product",
+      "unitsSold": "Units Sold"
+    },
+    "charts": {
+      "weeklyTitle": "Weekly Sales Overview",
+      "monthlyTitle": "Monthly Sales Overview"
+    },
+    "recentSales": {
+      "title": "Recent Sales",
+      "description": "A few of the most recent sales.",
+      "customer": "Customer",
+      "amount": "Amount",
+      "status": "Status",
+      "viewAll": "View All"
+    }
+  },
+  "sales": {
+    "title": "Sales",
+    "description": "Manage and track all your sales records.",
+    "filterPlaceholder": "Filter by customer or ID...",
+    "export": "Export",
+    "addNew": "Add New Sale",
+    "historyTitle": "Sales History",
+    "historyDescription": "A list of all sales made in your shop.",
+    "table": {
+      "invoiceId": "Invoice ID",
+      "customer": "Customer",
+      "productsSold": "Products Sold",
+      "date": "Date",
+      "totalAmount": "Total Amount (৳)",
+      "paidAmount": "Paid Amount (৳)",
+      "dueAmount": "Due Amount (৳)",
+      "actions": "Actions"
+    },
+    "dialog": {
+      "editTitle": "Edit Sale",
+      "addTitle": "Add New Sale",
+      "editDescription": "Editing invoice {{id}}.",
+      "addDescription": "Select customer and add products to create a new sale.",
+      "customerLabel": "Customer",
+      "customerPlaceholder": "Select customer...",
+      "customerSearch": "Search customers...",
+      "productsTitle": "Products",
+      "productLabel": "Product",
+      "productPlaceholder": "Select product...",
+      "productSearch": "Search products...",
+      "quantityLabel": "Quantity",
+      "priceLabel": "Price",
+      "addProduct": "Add Product",
+      "paidAmountLabel": "Paid Amount (৳)",
+      "totalAmountLabel": "Total Amount (৳)",
+      "dueAmountLabel": "Due Amount (৳)",
+      "createSale": "Create Sale"
+    },
+    "print": {
+      "invoiceTitle": "Invoice - {{id}}",
+      "billTo": "Bill To:",
+      "invoiceNo": "Invoice #:",
+      "date": "Date:",
+      "status": "Status",
+      "item": "Item",
+      "price": "Price",
+      "summary": "Summary",
+      "amount": "Amount",
+      "totalAmount": "Total Amount",
+      "paidAmount": "Paid Amount",
+      "dueAmount": "Due Amount"
+    },
+    "toast": {
+      "exportSuccessTitle": "Export Successful",
+      "exportSuccessDescription": "Sales history has been exported to an Excel file.",
+      "deletedTitle": "Sale Deleted",
+      "deletedDescription": "Invoice {{id}} has been successfully deleted.",
+      "updatedTitle": "Sale Updated",
+      "updatedDescription": "Invoice {{id}} has been updated.",
+      "addedTitle": "Sale Added",
+      "addedDescription": "New sale has been created."
+    },
+    "validation": {
+      "stockError": "Only {{stock}} in stock."
+    }
+  },
+  "purchases": {
+    "title": "Purchases & Expenses",
+    "description": "Track all your inventory purchases and other expenses.",
+    "filterPlaceholder": "Filter by supplier, description...",
+    "export": "Export",
+    "addRecord": "Add Record",
+    "historyTitle": "Purchases & Expenses History",
+    "historyDescription": "A list of all purchases and expenses.",
+    "table": {
+      "id": "ID",
+      "supplier": "Supplier/Payee",
+      "description": "Description",
+      "details": "Details",
+      "date": "Date",
+      "total": "Total (৳)",
+      "paid": "Paid (৳)",
+      "due": "Due (৳)",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "dialog": {
+      "editTitle": "Edit Record",
+      "addTitle": "Add New Purchase / Expense",
+      "editDescription": "Editing record {{id}}.",
+      "addDescription": "Select record type and enter the details.",
+      "typeLabel": "Record Type",
+      "inventoryType": "Inventory Purchase",
+      "utilityType": "Utility Expense",
+      "supplierLabel": "Supplier / Payee",
+      "supplierPlaceholder": "e.g. ACI Limited / DESCO",
+      "productLabel": "Product",
+      "productPlaceholder": "Select product...",
+      "productSearch": "Search products...",
+      "quantityLabel": "Quantity",
+      "quantityPlaceholder": "e.g. 100",
+      "expenseDescriptionLabel": "Expense Description",
+      "expenseDescriptionPlaceholder": "e.g. Electricity bill for May, Office rent",
+      "totalCostLabel": "Total Cost (৳)",
+      "costPlaceholder": "e.g. 10000.00",
+      "paidAmountLabel": "Paid Amount (৳)",
+      "paidPlaceholder": "e.g. 5000.00",
+      "saveRecord": "Save Record"
+    },
+    "print": {
+      "voucherTitle": "Purchase Voucher - {{id}}",
+      "voucherNo": "Voucher #:",
+      "date": "Date:",
+      "paidTo": "Paid To:",
+      "description": "Description",
+      "quantity": "Quantity",
+      "cost": "Cost",
+      "summary": "Summary",
+      "totalAmount": "Total Amount",
+      "paidAmount": "Paid Amount",
+      "dueAmount": "Due Amount",
+      "status": "Status"
+    },
+    "toast": {
+      "exportSuccessTitle": "Export Successful",
+      "exportSuccessDescription": "Purchase history has been exported to an Excel file.",
+      "deletedTitle": "Record Deleted",
+      "deletedDescription": "Record {{id}} has been successfully deleted.",
+      "updatedTitle": "Purchase Updated",
+      "updatedDescription": "Purchase {{id}} has been successfully updated.",
+      "addedTitle": "Purchase Added",
+      "addedDescription": "New purchase/expense has been created."
+    }
+  },
+  "inventory": {
+    "title": "Inventory",
+    "description": "Track and manage your product stock.",
+    "filterPlaceholder": "Filter by name or category...",
+    "addProduct": "Add Product",
+    "productsTitle": "Products",
+    "productsDescription": "A list of all products in your inventory.",
+    "table": {
+      "productName": "Product Name",
+      "category": "Category",
+      "measurement": "Measurement",
+      "status": "Status",
+      "price": "Price",
+      "stock": "Stock",
+      "actions": "Actions"
+    },
+    "status": {
+      "service": "Service",
+      "outOfStock": "Out of Stock",
+      "lowStock": "Low Stock",
+      "inStock": "In Stock"
+    },
+    "dialog": {
+      "editTitle": "Edit Product",
+      "addTitle": "Add New Product",
+      "editDescription": "Editing {{name}}.",
+      "addDescription": "Enter the details of the new product.",
+      "nameLabel": "Product Name",
+      "namePlaceholder": "e.g. Fresh Soyabean Oil 5L",
+      "categoryLabel": "Category",
+      "categoryPlaceholder": "e.g. Groceries",
+      "measurementLabel": "Measurement Unit",
+      "measurementPlaceholder": "e.g. pcs, kg, litre",
+      "priceLabel": "Sell Price (৳)",
+      "pricePlaceholder": "e.g. 850",
+      "isServiceLabel": "Service / No Stock",
+      "isServiceDescription": "Enable if this is a service or an item without trackable stock.",
+      "stockLabel": "Stock Quantity",
+      "stockPlaceholder": "e.g. 25"
+    },
+    "adjustStockDialog": {
+      "title": "Adjust Stock for {{name}}",
+      "description": "Update the stock quantity for this product.",
+      "newStockLabel": "New Stock Quantity",
+      "newStockPlaceholder": "Enter new stock quantity"
+    },
+    "deleteDialog": {
+      "title": "Are you absolutely sure?",
+      "description": "This action cannot be undone. This will permanently delete the product."
+    },
+    "toast": {
+      "deletedTitle": "Product Deleted",
+      "deletedDescription": "Product {{name}} has been successfully deleted.",
+      "updatedTitle": "Product Updated",
+      "updatedDescription": "{{name}} has been successfully updated.",
+      "addedTitle": "Product Added",
+      "addedDescription": "{{name}} has been added to inventory.",
+      "stockAdjustedTitle": "Stock Adjusted",
+      "stockAdjustedDescription": "Stock for {{name}} updated to {{stock}}."
+    }
+  },
+  "customers": {
+    "title": "Customers",
+    "description": "Manage customer information and track due payments.",
+    "filterPlaceholder": "Filter by name or phone...",
+    "import": "Import",
+    "export": "Export",
+    "addCustomer": "Add Customer",
+    "duesTitle": "Customer Dues",
+    "duesDescription": "You have {{count}} customers with a total outstanding due of ৳{{totalDue}}.",
+    "table": {
+      "name": "Customer Name",
+      "phone": "Phone Number",
+      "lastPurchase": "Last Purchase",
+      "dueAmount": "Due Amount",
+      "actions": "Actions"
+    },
+    "dialog": {
+      "editTitle": "Edit Customer",
+      "addTitle": "Add New Customer",
+      "editDescription": "Editing {{name}}.",
+      "addDescription": "Enter the details of the new customer.",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "e.g. Abul Kashem",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "e.g. 01712345678",
+      "addressLabel": "Address",
+      "addressPlaceholder": "e.g. 123, Dhanmondi, Dhaka"
+    },
+    "detailsDialog": {
+      "title": "Customer Details & History",
+      "description": "Viewing history for {{name}} (ID: {{id}})",
+      "phone": "Phone:",
+      "address": "Address:",
+      "lastPurchase": "Last Purchase:",
+      "dueSince": "Due Since:",
+      "totalDue": "Total Due Amount:",
+      "purchasesTab": "Purchase History",
+      "paymentsTab": "Payment History",
+      "invoice": "Invoice",
+      "date": "Date",
+      "total": "Total",
+      "paid": "Paid",
+      "due": "Due",
+      "product": "Product",
+      "qty": "Qty",
+      "price": "Price",
+      "subtotal": "Subtotal",
+      "referenceId": "Reference ID",
+      "amount": "Amount",
+      "noPurchaseHistory": "No purchase history found.",
+      "noPaymentHistory": "No payment history found.",
+      "recordPayment": "Record Payment",
+      "downloadPdf": "Download PDF",
+      "printHistory": "Print History",
+      "close": "Close"
+    },
+    "paymentDialog": {
+      "title": "Record Payment for {{name}}",
+      "description": "Current due is <span class=\"font-semibold text-destructive\">৳{{due}}</span>. Enter the amount paid.",
+      "amountLabel": "Payment Amount (৳)",
+      "amountPlaceholder": "Enter amount paid"
+    },
+    "deleteDialog": {
+      "title": "Are you absolutely sure?",
+      "description": "This action cannot be undone. This will permanently delete the customer and all their records."
+    },
+    "sms": {
+      "sendReminder": "Send Reminder",
+      "dialogTitle": "Send SMS Reminder to {{name}}",
+      "dialogDescription": "The message will be sent to the customer's phone number. You can edit the message below.",
+      "messageLabel": "Message",
+      "template": "Dear {{name}}, your outstanding due is ৳{{amount}}. Please clear it at your earliest convenience. Thank you. - {{shopName}}",
+      "simulationNotice": "Note: This is a simulation. In a real mobile app, this would be hooked up to the phone's native SMS functionality.",
+      "sendButton": "Send SMS"
+    },
+    "print": {
+      "title": "Customer History - {{name}}",
+      "customerHistory": "Customer History",
+      "id": "ID:",
+      "phone": "Phone:",
+      "address": "Address:",
+      "totalDue": "Total Due:",
+      "purchaseHistory": "Purchase History",
+      "invoice": "Invoice",
+      "date": "Date",
+      "total": "Total",
+      "paid": "Paid",
+      "due": "Due",
+      "product": "Product",
+      "qty": "Qty",
+      "price": "Price",
+      "subtotal": "Subtotal",
+      "noPurchaseHistory": "No purchase history found.",
+      "paymentHistory": "Payment History",
+      "referenceId": "Reference ID",
+      "amount": "Amount",
+      "noPaymentsRecorded": "No payments recorded."
+    },
+    "toast": {
+      "pdfDownloadedTitle": "PDF Downloaded",
+      "pdfDownloadedDescription": "History for {{name}} has been downloaded.",
+      "pdfErrorTitle": "PDF Generation Failed",
+      "pdfErrorDescription": "An error occurred while generating the PDF.",
+      "importErrorEmpty": "The selected file is empty or invalid.",
+      "importErrorRow": "A row in your file is missing Name, Phone, or Address.",
+      "importErrorDuplicate": "Duplicate phone number found: {{phone}}. No customers were imported.",
+      "importSuccessTitle": "Import Successful",
+      "importSuccessDescription": "{{count}} customers have been successfully imported.",
+      "importErrorProcessing": "There was an error processing your file. Please check the format.",
+      "importErrorRead": "Could not read the selected file.",
+      "exportSuccessTitle": "Export Successful",
+      "exportSuccessDescription": "Customer list has been exported to an Excel file.",
+      "updatedTitle": "Customer Updated",
+      "updatedDescription": "{{name}}'s information has been updated.",
+      "addedTitle": "Customer Added",
+      "addedDescription": "{{name}} has been added.",
+      "paymentRecordedTitle": "Payment Recorded",
+      "paymentRecordedDescription": "Payment of ৳{{amount}} for {{name}} recorded.",
+      "deletedTitle": "Customer Deleted",
+      "deletedDescription": "Customer {{name}} has been deleted.",
+      "smsSentTitle": "SMS Reminder Sent",
+      "smsSentDescription": "Reminder for {{name}} has been queued for sending."
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "description": "Analyze your shop's financial performance.",
+    "tabs": {
+      "allTime": "All Time",
+      "monthly": "This Month",
+      "weekly": "This Week",
+      "daily": "Today"
+    },
+    "datePickerPlaceholder": "Pick a date range",
+    "export": "Export",
+    "stats": {
+      "totalSellService": "Total (Sell + Service)",
+      "paidAmount": "Paid Amount",
+      "dueAmount": "Due Amount",
+      "totalProfit": "Total Profit (Products + Service)",
+      "totalExpenses": "Total Expenses",
+      "stockValue": "Value of Stock",
+      "stockValueDescription": "Estimated value of current inventory."
+    },
+    "productReport": {
+      "title": "Product Sales Report",
+      "description": "Detailed sales and profit analysis for each product in the selected period.",
+      "table": {
+        "product": "Product",
+        "qty": "Qty",
+        "sellAmount": "Sell Amount",
+        "paidAmount": "Paid Amount",
+        "dueAmount": "Due Amount",
+        "cogs": "Expenses (COGS)",
+        "profit": "Profit"
+      },
+      "noData": "No product sales in this period."
+    },
+    "serviceReport": {
+      "title": "Service Sales Details",
+      "description": "Summary of all services sold in the selected period.",
+      "table": {
+        "service": "Service",
+        "count": "Count",
+        "sellAmount": "Sell Amount",
+        "paidAmount": "Paid Amount",
+        "dueAmount": "Due Amount"
+      },
+      "noData": "No service sales in this period."
+    },
+    "expenseReport": {
+      "title": "Utility Expense Details",
+      "description": "A list of all utility and other non-inventory expenses in the selected period.",
+      "table": {
+        "date": "Date",
+        "payee": "Payee",
+        "description": "Description",
+        "amount": "Amount",
+        "paidAmount": "Paid Amount",
+        "dueAmount": "Due Amount"
+      },
+      "noData": "No utility expenses in this period."
+    },
+    "toast": {
+      "exportSuccessTitle": "Export Successful",
+      "exportSuccessDescription": "The report has been exported as an Excel file."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Configure your shop details and application preferences.",
+    "shopInfoTitle": "Shop Information",
+    "shopInfoDescription": "This information will appear on your invoices.",
+    "nameLabel": "Shop Name",
+    "namePlaceholder": "Your Shop Name",
+    "addressLabel": "Shop Address",
+    "addressPlaceholder": "Your Shop Address",
+    "contactLabel": "Contact Info",
+    "contactPlaceholder": "Phone, Email, etc.",
+    "save": "Save Changes",
+    "toast": {
+      "successTitle": "Settings Saved",
+      "successDescription": "Your shop information has been updated."
+    }
+  },
+  "employees": {
+    "title": "Employees",
+    "description": "Manage employee attendance, salary, and advances.",
+    "addEmployee": "Add Employee",
+    "cardTitle": "Employee Management",
+    "cardDescription": "This feature is coming soon.",
+    "content": "You will be able to manage your workers' information here."
+  },
+  "suppliers": {
+    "title": "Suppliers",
+    "description": "Manage your suppliers and track payments.",
+    "addSupplier": "Add Supplier",
+    "cardTitle": "Supplier Ledger",
+    "cardDescription": "This feature is coming soon.",
+    "content": "You will be able to keep track of wholesale purchases and outstanding payments to suppliers here."
+  },
+  "common": {
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "viewDetails": "View Details",
+    "recordPayment": "Record Payment",
+    "saveChanges": "Save Changes",
+    "continue": "Continue",
+    "cancel": "Cancel"
+  }
+}

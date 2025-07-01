@@ -1,0 +1,509 @@
+
+{
+  "sidebar": {
+    "dashboard": "ড্যাশবোর্ড",
+    "sales": "বিক্রয়",
+    "purchases": "ক্রয় ও খরচ",
+    "inventory": "মজুদ",
+    "customers": "গ্রাহক",
+    "reports": "রিপোর্ট",
+    "settings": "সেটিংস",
+    "employees": "কর্মচারী",
+    "suppliers": "সরবরাহকারী"
+  },
+  "userMenu": {
+    "myAccount": "আমার অ্যাকাউন্ট",
+    "shopOwner": "দোকানের মালিক",
+    "email": "owner@nirobmill.com",
+    "theme": "থিম",
+    "light": "লাইট",
+    "dark": "ডার্ক",
+    "system": "সিস্টেম",
+    "language": "ভাষা",
+    "english": "English",
+    "bengali": "বাংলা",
+    "logout": "লগ আউট"
+  },
+  "login": {
+    "title": "স্বাগতম",
+    "description": "আপনার ড্যাশবোর্ডে প্রবেশ করতে লগইন করুন।",
+    "emailLabel": "ইমেল",
+    "passwordLabel": "পাসওয়ার্ড",
+    "button": "লগ ইন",
+    "footer": "ডিফল্ট তথ্য ব্যবহার করে লগইন করুন।",
+    "toast": {
+      "successTitle": "লগইন সফল হয়েছে",
+      "successDescription": "স্বাগতম! আপনাকে ড্যাশবোর্ডে নিয়ে যাওয়া হচ্ছে।",
+      "errorTitle": "লগইন ব্যর্থ হয়েছে",
+      "errorDescription": "ভুল ইমেল বা পাসওয়ার্ড। অনুগ্রহ করে আবার চেষ্টা করুন।"
+    }
+  },
+  "dashboard": {
+    "title": "ড্যাশবোর্ড",
+    "description": "আপনার দোকানের কার্যকলাপের একটি সারসংক্ষেপ এখানে দেখুন।",
+    "tabs": { "daily": "দৈনিক", "weekly": "সাপ্তাহিক", "monthly": "মাসিক" },
+    "stats": {
+      "numSales": "মোট বিক্রয় সংখ্যা",
+      "sellAmount": "বিক্রয় পরিমাণ",
+      "dueAmount": "বকেয়া পরিমাণ",
+      "paidAmount": "পরিশোধিত পরিমাণ",
+      "salesToday": "আজকের মোট বিক্রয়",
+      "revenueToday": "আজকের মোট আয়",
+      "outstandingToday": "আজকের বিক্রয় থেকে বকেয়া",
+      "paidToday": "আজকে প্রাপ্ত পেমেন্ট",
+      "salesWeek": "এই সপ্তাহের মোট বিক্রয়",
+      "revenueWeek": "এই সপ্তাহের মোট আয়",
+      "outstandingWeek": "এই সপ্তাহের বিক্রয় থেকে বকেয়া",
+      "paidWeek": "এই সপ্তাহে প্রাপ্ত পেমেন্ট",
+      "salesMonth": "এই মাসের মোট বিক্রয়",
+      "revenueMonth": "এই মাসের মোট আয়",
+      "outstandingMonth": "এই মাসের মোট বকেয়া",
+      "paidMonth": "এই মাসে প্রাপ্ত পেমেন্ট"
+    },
+    "topProducts": {
+      "today": "আজকের সেরা বিক্রিত পণ্য",
+      "week": "এই সপ্তাহের সেরা বিক্রিত পণ্য",
+      "month": "এই মাসের সেরা বিক্রিত পণ্য",
+      "product": "পণ্য",
+      "unitsSold": "বিক্রিত ইউনিট"
+    },
+    "charts": {
+      "weeklyTitle": "সাপ্তাহিক বিক্রয় ওভারভিউ",
+      "monthlyTitle": "মাসিক বিক্রয় ওভারভিউ"
+    },
+    "recentSales": {
+      "title": "সাম্প্রতিক বিক্রয়",
+      "description": "সবচেয়ে সাম্প্রতিক কিছু বিক্রয়ের তালিকা।",
+      "customer": "গ্রাহক",
+      "amount": "পরিমাণ",
+      "status": "স্ট্যাটাস",
+      "viewAll": "সব দেখুন"
+    }
+  },
+  "sales": {
+    "title": "বিক্রয়",
+    "description": "আপনার সমস্ত বিক্রয়ের রেকর্ড পরিচালনা ও ট্র্যাক করুন।",
+    "filterPlaceholder": "গ্রাহক বা আইডি দিয়ে ফিল্টার করুন...",
+    "export": "এক্সপোর্ট",
+    "addNew": "নতুন বিক্রয় যোগ করুন",
+    "historyTitle": "বিক্রয়ের ইতিহাস",
+    "historyDescription": "আপনার দোকানে করা সমস্ত বিক্রয়ের একটি তালিকা।",
+    "table": {
+      "invoiceId": "ইনভয়েস আইডি",
+      "customer": "গ্রাহক",
+      "productsSold": "বিক্রিত পণ্য",
+      "date": "তারিখ",
+      "totalAmount": "মোট পরিমাণ (৳)",
+      "paidAmount": "পরিশোধিত পরিমাণ (৳)",
+      "dueAmount": "বকেয়া পরিমাণ (৳)",
+      "actions": "কার্যকলাপ"
+    },
+    "dialog": {
+      "editTitle": "বিক্রয় সম্পাদনা করুন",
+      "addTitle": "নতুন বিক্রয় যোগ করুন",
+      "editDescription": "ইনভয়েস {{id}} সম্পাদনা করা হচ্ছে।",
+      "addDescription": "গ্রাহক নির্বাচন করুন এবং নতুন বিক্রয় তৈরি করতে পণ্য যোগ করুন।",
+      "customerLabel": "গ্রাহক",
+      "customerPlaceholder": "গ্রাহক নির্বাচন করুন...",
+      "customerSearch": "গ্রাহক খুঁজুন...",
+      "productsTitle": "পণ্য",
+      "productLabel": "পণ্য",
+      "productPlaceholder": "পণ্য নির্বাচন করুন...",
+      "productSearch": "পণ্য খুঁজুন...",
+      "quantityLabel": "পরিমাণ",
+      "priceLabel": "মূল্য",
+      "addProduct": "পণ্য যোগ করুন",
+      "paidAmountLabel": "পরিশোধিত পরিমাণ (৳)",
+      "totalAmountLabel": "মোট পরিমাণ (৳)",
+      "dueAmountLabel": "বকেয়া পরিমাণ (৳)",
+      "createSale": "বিক্রয় তৈরি করুন"
+    },
+    "print": {
+      "invoiceTitle": "ইনভয়েস - {{id}}",
+      "billTo": "প্রাপক:",
+      "invoiceNo": "ইনভয়েস #:",
+      "date": "তারিখ:",
+      "status": "স্ট্যাটাস",
+      "item": "আইটেম",
+      "price": "মূল্য",
+      "summary": "সারসংক্ষেপ",
+      "amount": "পরিমাণ",
+      "totalAmount": "মোট পরিমাণ",
+      "paidAmount": "পরিশোধিত পরিমাণ",
+      "dueAmount": "বকেয়া পরিমাণ"
+    },
+    "toast": {
+      "exportSuccessTitle": "এক্সপোর্ট সফল",
+      "exportSuccessDescription": "বিক্রয়ের ইতিহাস একটি এক্সেল ফাইলে এক্সপোর্ট করা হয়েছে।",
+      "deletedTitle": "বিক্রয় মুছে ফেলা হয়েছে",
+      "deletedDescription": "ইনভয়েস {{id}} সফলভাবে মুছে ফেলা হয়েছে।",
+      "updatedTitle": "বিক্রয় আপডেট করা হয়েছে",
+      "updatedDescription": "ইনভয়েস {{id}} আপডেট করা হয়েছে।",
+      "addedTitle": "বিক্রয় যোগ করা হয়েছে",
+      "addedDescription": "নতুন বিক্রয় তৈরি করা হয়েছে।"
+    },
+    "validation": {
+      "stockError": "স্টকে মাত্র {{stock}} আছে।"
+    }
+  },
+  "purchases": {
+    "title": "ক্রয় ও খরচ",
+    "description": "আপনার সমস্ত ইনভেন্টরি ক্রয় এবং অন্যান্য খরচ ট্র্যাক করুন।",
+    "filterPlaceholder": "সরবরাহকারী, বিবরণ দিয়ে ফিল্টার করুন...",
+    "export": "এক্সপোর্ট",
+    "addRecord": "রেকর্ড যোগ করুন",
+    "historyTitle": "ক্রয় ও খরচের ইতিহাস",
+    "historyDescription": "সমস্ত ক্রয় এবং খরচের একটি তালিকা।",
+    "table": {
+      "id": "আইডি",
+      "supplier": "সরবরাহকারী/প্রাপক",
+      "description": "বিবরণ",
+      "details": "বিস্তারিত",
+      "date": "তারিখ",
+      "total": "মোট (৳)",
+      "paid": "পরিশোধিত (৳)",
+      "due": "বকেয়া (৳)",
+      "status": "স্ট্যাটাস",
+      "actions": "কার্যকলাপ"
+    },
+    "dialog": {
+      "editTitle": "রেকর্ড সম্পাদনা করুন",
+      "addTitle": "নতুন ক্রয় / খরচ যোগ করুন",
+      "editDescription": "রেকর্ড {{id}} সম্পাদনা করা হচ্ছে।",
+      "addDescription": "রেকর্ডের প্রকার নির্বাচন করুন এবং বিবরণ লিখুন।",
+      "typeLabel": "রেকর্ডের প্রকার",
+      "inventoryType": "ইনভেন্টরি ক্রয়",
+      "utilityType": "ইউটিলিটি খরচ",
+      "supplierLabel": "সরবরাহকারী / প্রাপক",
+      "supplierPlaceholder": "যেমন: এসিআই লিমিটেড / ডেসকো",
+      "productLabel": "পণ্য",
+      "productPlaceholder": "পণ্য নির্বাচন করুন...",
+      "productSearch": "পণ্য খুঁজুন...",
+      "quantityLabel": "পরিমাণ",
+      "quantityPlaceholder": "যেমন: ১০০",
+      "expenseDescriptionLabel": "খরচের বিবরণ",
+      "expenseDescriptionPlaceholder": "যেমন: মে মাসের বিদ্যুৎ বিল, অফিসের ভাড়া",
+      "totalCostLabel": "মোট খরচ (৳)",
+      "costPlaceholder": "যেমন: ১০০০০.০০",
+      "paidAmountLabel": "পরিশোধিত পরিমাণ (৳)",
+      "paidPlaceholder": "যেমন: ৫০০০.০০",
+      "saveRecord": "রেকর্ড সংরক্ষণ করুন"
+    },
+    "print": {
+      "voucherTitle": "ক্রয় ভাউচার - {{id}}",
+      "voucherNo": "ভাউচার #:",
+      "date": "তারিখ:",
+      "paidTo": "প্রদান করা হয়েছে:",
+      "description": "বিবরণ",
+      "quantity": "পরিমাণ",
+      "cost": "খরচ",
+      "summary": "সারসংক্ষেপ",
+      "totalAmount": "মোট পরিমাণ",
+      "paidAmount": "পরিশোধিত পরিমাণ",
+      "dueAmount": "বকেয়া পরিমাণ",
+      "status": "স্ট্যাটাস"
+    },
+    "toast": {
+      "exportSuccessTitle": "এক্সপোর্ট সফল",
+      "exportSuccessDescription": "ক্রয়ের ইতিহাস একটি এক্সেল ফাইলে এক্সপোর্ট করা হয়েছে।",
+      "deletedTitle": "রেকর্ড মুছে ফেলা হয়েছে",
+      "deletedDescription": "রেকর্ড {{id}} সফলভাবে মুছে ফেলা হয়েছে।",
+      "updatedTitle": "ক্রয় আপডেট করা হয়েছে",
+      "updatedDescription": "ক্রয় {{id}} আপডেট করা হয়েছে।",
+      "addedTitle": "ক্রয় যোগ করা হয়েছে",
+      "addedDescription": "নতুন ক্রয়/খরচ তৈরি করা হয়েছে।"
+    }
+  },
+  "inventory": {
+    "title": "মজুদ",
+    "description": "আপনার পণ্যের স্টক ট্র্যাক এবং পরিচালনা করুন।",
+    "filterPlaceholder": "নাম বা বিভাগ দিয়ে ফিল্টার করুন...",
+    "addProduct": "পণ্য যোগ করুন",
+    "productsTitle": "পণ্য তালিকা",
+    "productsDescription": "আপনার মজুদে থাকা সমস্ত পণ্যের একটি তালিকা।",
+    "table": {
+      "productName": "পণ্যের নাম",
+      "category": "বিভাগ",
+      "measurement": "পরিমাপ",
+      "status": "স্ট্যাটাস",
+      "price": "মূল্য",
+      "stock": "স্টক",
+      "actions": "কার্যকলাপ"
+    },
+    "status": {
+      "service": "সার্ভিস",
+      "outOfStock": "স্টক শেষ",
+      "lowStock": "স্টক কম",
+      "inStock": "স্টকে আছে"
+    },
+    "dialog": {
+      "editTitle": "পণ্য সম্পাদনা করুন",
+      "addTitle": "নতুন পণ্য যোগ করুন",
+      "editDescription": "{{name}} সম্পাদনা করা হচ্ছে।",
+      "addDescription": "নতুন পণ্যের বিবরণ লিখুন।",
+      "nameLabel": "পণ্যের নাম",
+      "namePlaceholder": "যেমন: ফ্রেশ সয়াবিন তেল ৫লি.",
+      "categoryLabel": "বিভাগ",
+      "categoryPlaceholder": "যেমন: মুদি",
+      "measurementLabel": "পরিমাপের একক",
+      "measurementPlaceholder": "যেমন: পিস, কেজি, লিটার",
+      "priceLabel": "বিক্রয় মূল্য (৳)",
+      "pricePlaceholder": "যেমন: ৮৫০",
+      "isServiceLabel": "সার্ভিস / স্টক নেই",
+      "isServiceDescription": "যদি এটি একটি পরিষেবা বা স্টক ট্র্যাক করার প্রয়োজন নেই এমন আইটেম হয় তবে এটি সক্ষম করুন।",
+      "stockLabel": "স্টকের পরিমাণ",
+      "stockPlaceholder": "যেমন: ২৫"
+    },
+    "adjustStockDialog": {
+      "title": "{{name}} এর জন্য স্টক সামঞ্জস্য করুন",
+      "description": "এই পণ্যের জন্য স্টক পরিমাণ আপডেট করুন।",
+      "newStockLabel": "নতুন স্টক পরিমাণ",
+      "newStockPlaceholder": "নতুন স্টক পরিমাণ লিখুন"
+    },
+    "deleteDialog": {
+      "title": "আপনি কি নিশ্চিত?",
+      "description": "এই কাজটি আর ফেরানো যাবে না। এটি স্থায়ীভাবে পণ্যটি মুছে ফেলবে।"
+    },
+    "toast": {
+      "deletedTitle": "পণ্য মুছে ফেলা হয়েছে",
+      "deletedDescription": "পণ্য {{name}} সফলভাবে মুছে ফেলা হয়েছে।",
+      "updatedTitle": "পণ্য আপডেট করা হয়েছে",
+      "updatedDescription": "{{name}} সফলভাবে আপডেট করা হয়েছে।",
+      "addedTitle": "পণ্য যোগ করা হয়েছে",
+      "addedDescription": "{{name}} মজুদে যোগ করা হয়েছে।",
+      "stockAdjustedTitle": "স্টক সামঞ্জস্য করা হয়েছে",
+      "stockAdjustedDescription": "{{name}} এর জন্য স্টক {{stock}} এ আপডেট করা হয়েছে।"
+    }
+  },
+  "customers": {
+    "title": "গ্রাহক",
+    "description": "গ্রাহকের তথ্য পরিচালনা করুন এবং বকেয়া ট্র্যাক করুন।",
+    "filterPlaceholder": "নাম বা ফোন নম্বর দিয়ে ফিল্টার করুন...",
+    "import": "ইম্পোর্ট",
+    "export": "এক্সপোর্ট",
+    "addCustomer": "গ্রাহক যোগ করুন",
+    "duesTitle": "গ্রাহকের বকেয়া",
+    "duesDescription": "আপনার {{count}} জন গ্রাহকের মোট বকেয়ার পরিমাণ ৳{{totalDue}}।",
+    "table": {
+      "name": "গ্রাহকের নাম",
+      "phone": "ফোন নম্বর",
+      "lastPurchase": "শেষ ক্রয়",
+      "dueAmount": "বকেয়া পরিমাণ",
+      "actions": "কার্যকলাপ"
+    },
+    "dialog": {
+      "editTitle": "গ্রাহক সম্পাদনা করুন",
+      "addTitle": "নতুন গ্রাহক যোগ করুন",
+      "editDescription": "{{name}} এর তথ্য সম্পাদনা করা হচ্ছে।",
+      "addDescription": "নতুন গ্রাহকের বিবরণ লিখুন।",
+      "nameLabel": "পুরো নাম",
+      "namePlaceholder": "যেমন: আবুল কাশেম",
+      "phoneLabel": "ফোন নম্বর",
+      "phonePlaceholder": "যেমন: ০১৭২৩৪৫৬৭৮",
+      "addressLabel": "ঠিকানা",
+      "addressPlaceholder": "যেমন: ১২৩, ধানমন্ডি, ঢাকা"
+    },
+    "detailsDialog": {
+      "title": "গ্রাহকের বিবরণ ও ইতিহাস",
+      "description": "{{name}} এর ইতিহাস দেখা হচ্ছে (আইডি: {{id}})",
+      "phone": "ফোন:",
+      "address": "ঠিকানা:",
+      "lastPurchase": "শেষ ক্রয়:",
+      "dueSince": "বকেয়া:",
+      "totalDue": "মোট বকেয়া:",
+      "purchasesTab": "ক্রয়ের ইতিহাস",
+      "paymentsTab": "পেমেন্টের ইতিহাস",
+      "invoice": "ইনভয়েস",
+      "date": "তারিখ",
+      "total": "মোট",
+      "paid": "পরিশোধিত",
+      "due": "বকেয়া",
+      "product": "পণ্য",
+      "qty": "পরিমাণ",
+      "price": "মূল্য",
+      "subtotal": "সাবটোটাল",
+      "referenceId": "রেফারেন্স আইডি",
+      "amount": "পরিমাণ",
+      "noPurchaseHistory": "কোনো ক্রয়ের ইতিহাস পাওয়া যায়নি।",
+      "noPaymentHistory": "কোনো পেমেন্টের ইতিহাস পাওয়া যায়নি।",
+      "recordPayment": "পেমেন্ট রেকর্ড করুন",
+      "downloadPdf": "পিডিএফ ডাউনলোড",
+      "printHistory": "ইতিহাস প্রিন্ট করুন",
+      "close": "বন্ধ করুন"
+    },
+    "paymentDialog": {
+      "title": "{{name}} এর জন্য পেমেন্ট রেকর্ড করুন",
+      "description": "বর্তমান বকেয়া <span class=\"font-semibold text-destructive\">৳{{due}}</span>। পরিশোধিত পরিমাণ লিখুন।",
+      "amountLabel": "পেমেন্টের পরিমাণ (৳)",
+      "amountPlaceholder": "পরিশোধিত পরিমাণ লিখুন"
+    },
+    "deleteDialog": {
+      "title": "আপনি কি নিশ্চিত?",
+      "description": "এই কাজটি আর ফেরানো যাবে না। এটি স্থায়ীভাবে গ্রাহক এবং তাদের সমস্ত রেকর্ড মুছে ফেলবে।"
+    },
+    "sms": {
+      "sendReminder": "এসএমএস পাঠান",
+      "dialogTitle": "{{name}} কে এসএমএস অনুস্মারক পাঠান",
+      "dialogDescription": "বার্তাটি গ্রাহকের ফোন নম্বরে পাঠানো হবে। আপনি চাইলে নিচের বার্তাটি সম্পাদনা করতে পারেন।",
+      "messageLabel": "বার্তা",
+      "template": "প্রিয় {{name}}, আপনার বকেয়া পরিমাণ ৳{{amount}}। দয়া করে দ্রুত পরিশোধ করুন। ধন্যবাদ। - {{shopName}}",
+      "simulationNotice": "দ্রষ্টব্য: এটি একটি সিমুলেশন। আসল মোবাইল অ্যাপে এটি ফোনের এসএমএস সুবিধার সাথে সংযুক্ত করা হবে।",
+      "sendButton": "এসএমএস পাঠান"
+    },
+    "print": {
+      "title": "গ্রাহকের ইতিহাস - {{name}}",
+      "customerHistory": "গ্রাহকের ইতিহাস",
+      "id": "আইডি:",
+      "phone": "ফোন:",
+      "address": "ঠিকানা:",
+      "totalDue": "মোট বকেয়া:",
+      "purchaseHistory": "ক্রয়ের ইতিহাস",
+      "invoice": "ইনভয়েস",
+      "date": "তারিখ",
+      "total": "মোট",
+      "paid": "পরিশোধিত",
+      "due": "বকেয়া",
+      "product": "পণ্য",
+      "qty": "পরিমাণ",
+      "price": "মূল্য",
+      "subtotal": "সাবটোটাল",
+      "noPurchaseHistory": "কোনো ক্রয়ের ইতিহাস পাওয়া যায়নি।",
+      "paymentHistory": "পেমেন্টের ইতিহাস",
+      "referenceId": "রেফারেন্স আইডি",
+      "amount": "পরিমাণ",
+      "noPaymentsRecorded": "কোনো পেমেন্ট রেকর্ড করা হয়নি।"
+    },
+    "toast": {
+      "pdfDownloadedTitle": "পিডিএফ ডাউনলোড হয়েছে",
+      "pdfDownloadedDescription": "{{name}} এর ইতিহাস ডাউনলোড করা হয়েছে।",
+      "pdfErrorTitle": "পিডিএফ তৈরিতে ব্যর্থ",
+      "pdfErrorDescription": "পিডিএফ তৈরির সময় একটি ত্রুটি ঘটেছে।",
+      "importErrorEmpty": "নির্বাচিত ফাইলটি খালি বা অবৈধ।",
+      "importErrorRow": "আপনার ফাইলের একটি সারিতে নাম, ফোন বা ঠিকানা নেই।",
+      "importErrorDuplicate": "ডুপ্লিকেট ফোন নম্বর পাওয়া গেছে: {{phone}}। কোনো গ্রাহক ইম্পোর্ট করা হয়নি।",
+      "importSuccessTitle": "ইম্পোর্ট সফল",
+      "importSuccessDescription": "{{count}} জন গ্রাহক সফলভাবে ইম্পোর্ট করা হয়েছে।",
+      "importErrorProcessing": "আপনার ফাইল প্রক্রিয়াকরণে একটি ত্রুটি ছিল। ফরম্যাট চেক করুন।",
+      "importErrorRead": "নির্বাচিত ফাইলটি পড়া যায়নি।",
+      "exportSuccessTitle": "এক্সপোর্ট সফল",
+      "exportSuccessDescription": "গ্রাহকের তালিকা একটি এক্সেল ফাইলে এক্সপোর্ট করা হয়েছে।",
+      "updatedTitle": "গ্রাহক আপডেট করা হয়েছে",
+      "updatedDescription": "{{name}} এর তথ্য আপডেট করা হয়েছে।",
+      "addedTitle": "গ্রাহক যোগ করা হয়েছে",
+      "addedDescription": "{{name}} কে যোগ করা হয়েছে।",
+      "paymentRecordedTitle": "পেমেন্ট রেকর্ড করা হয়েছে",
+      "paymentRecordedDescription": "{{name}} এর জন্য ৳{{amount}} এর পেমেন্ট রেকর্ড করা হয়েছে।",
+      "deletedTitle": "গ্রাহক মুছে ফেলা হয়েছে",
+      "deletedDescription": "গ্রাহক {{name}} কে মুছে ফেলা হয়েছে।",
+      "smsSentTitle": "এসএমএস পাঠানো হয়েছে",
+      "smsSentDescription": "{{name}} এর জন্য অনুস্মারক এসএমএস পাঠানোর জন্য তালিকাভুক্ত করা হয়েছে।"
+    }
+  },
+  "reports": {
+    "title": "রিপোর্ট",
+    "description": "আপনার দোকানের আর্থিক কর্মক্ষমতা বিশ্লেষণ করুন।",
+    "tabs": {
+      "allTime": "সর্বকালীন",
+      "monthly": "এই মাস",
+      "weekly": "এই সপ্তাহ",
+      "daily": "আজ"
+    },
+    "datePickerPlaceholder": "একটি তারিখ পরিসীমা বাছুন",
+    "export": "এক্সপোর্ট",
+    "stats": {
+      "totalSellService": "মোট (বিক্রয় + পরিষেবা)",
+      "paidAmount": "পরিশোধিত পরিমাণ",
+      "dueAmount": "বকেয়া পরিমাণ",
+      "totalProfit": "মোট লাভ (পণ্য + পরিষেবা)",
+      "totalExpenses": "মোট খরচ",
+      "stockValue": "স্টকের মূল্য",
+      "stockValueDescription": "বর্তমান মজুদের আনুমানিক মূল্য।"
+    },
+    "productReport": {
+      "title": "পণ্য বিক্রয় রিপোর্ট",
+      "description": "নির্বাচিত সময়ে প্রতিটি পণ্যের জন্য বিস্তারিত বিক্রয় এবং লাভ বিশ্লেষণ।",
+      "table": {
+        "product": "পণ্য",
+        "qty": "পরিমাণ",
+        "sellAmount": "বিক্রয় পরিমাণ",
+        "paidAmount": "পরিশোধিত পরিমাণ",
+        "dueAmount": "বকেয়া পরিমাণ",
+        "cogs": "খরচ (COGS)",
+        "profit": "লাভ"
+      },
+      "noData": "এই সময়ে কোনো পণ্য বিক্রয় হয়নি।"
+    },
+    "serviceReport": {
+      "title": "পরিষেবা বিক্রয়ের বিবরণ",
+      "description": "নির্বাচিত সময়ে বিক্রি হওয়া সমস্ত পরিষেবার সারসংক্ষেপ।",
+      "table": {
+        "service": "পরিষেবা",
+        "count": "সংখ্যা",
+        "sellAmount": "বিক্রয় পরিমাণ",
+        "paidAmount": "পরিশোধিত পরিমাণ",
+        "dueAmount": "বকেয়া পরিমাণ"
+      },
+      "noData": "এই সময়ে কোনো পরিষেবা বিক্রয় হয়নি।"
+    },
+    "expenseReport": {
+      "title": "ইউটিলিটি খরচের বিবরণ",
+      "description": "নির্বাচিত সময়ে সমস্ত ইউটিলিটি এবং অন্যান্য খরচের একটি তালিকা।",
+      "table": {
+        "date": "তারিখ",
+        "payee": "প্রাপক",
+        "description": "বিবরণ",
+        "amount": "পরিমাণ",
+        "paidAmount": "পরিশোধিত পরিমাণ",
+        "dueAmount": "বকেয়া পরিমাণ"
+      },
+      "noData": "এই সময়ে কোনো ইউটিলিটি খরচ হয়নি।"
+    },
+    "toast": {
+      "exportSuccessTitle": "এক্সপোর্ট সফল",
+      "exportSuccessDescription": "রিপোর্টটি একটি এক্সেল ফাইল হিসাবে এক্সপোর্ট করা হয়েছে।"
+    }
+  },
+  "settings": {
+    "title": "সেটিংস",
+    "description": "আপনার দোকানের বিবরণ এবং অ্যাপ্লিকেশন পছন্দ কনফিগার করুন।",
+    "shopInfoTitle": "দোকানের তথ্য",
+    "shopInfoDescription": "এই তথ্য আপনার ইনভয়েসে প্রদর্শিত হবে।",
+    "nameLabel": "দোকানের নাম",
+    "namePlaceholder": "আপনার দোকানের নাম",
+    "addressLabel": "দোকানের ঠিকানা",
+    "addressPlaceholder": "আপনার দোকানের ঠিকানা",
+    "contactLabel": "যোগাযোগের তথ্য",
+    "contactPlaceholder": "ফোন, ইমেল, ইত্যাদি",
+    "save": "পরিবর্তন সংরক্ষণ করুন",
+    "toast": {
+      "successTitle": "সেটিংস সংরক্ষিত হয়েছে",
+      "successDescription": "আপনার দোকানের তথ্য আপডেট করা হয়েছে।"
+    }
+  },
+  "employees": {
+    "title": "কর্মচারী",
+    "description": "কর্মচারীদের উপস্থিতি, বেতন এবং অগ্রিম পরিচালনা করুন।",
+    "addEmployee": "কর্মচারী যোগ করুন",
+    "cardTitle": "কর্মচারী ব্যবস্থাপনা",
+    "cardDescription": "এই ফিচারটি শীঘ্রই আসছে।",
+    "content": "আপনি এখানে আপনার কর্মীদের তথ্য পরিচালনা করতে পারবেন।"
+  },
+  "suppliers": {
+    "title": "সরবরাহকারী",
+    "description": "আপনার সরবরাহকারীদের পরিচালনা করুন এবং পেমেন্ট ট্র্যাক করুন।",
+    "addSupplier": "সরবরাহকারী যোগ করুন",
+    "cardTitle": "সরবরাহকারী লেজার",
+    "cardDescription": "এই ফিচারটি শীঘ্রই আসছে।",
+    "content": "আপনি এখানে পাইকারি ক্রয় এবং সরবরাহকারীদের বকেয়া পেমেন্টের হিসাব রাখতে পারবেন।"
+  },
+  "common": {
+    "actions": "কার্যকলাপ",
+    "edit": "সম্পাদনা",
+    "delete": "মুছে ফেলুন",
+    "viewDetails": "বিস্তারিত দেখুন",
+    "recordPayment": "পেমেন্ট রেকর্ড করুন",
+    "saveChanges": "পরিবর্তন সংরক্ষণ করুন",
+    "continue": "চালিয়ে যান",
+    "cancel": "বাতিল করুন"
+  }
+}
