@@ -27,6 +27,48 @@ export async function GET(request: Request) {
 }
 
 // POST /api/customers - নতুন গ্রাহক ডেটা তৈরি করার জন্য
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export async function POST(request: Request) {
   try {
     const body = await request.json();
@@ -34,12 +76,12 @@ export async function POST(request: Request) {
     const { name, contact, address } = body;
 
     if (!name) {
-        return new Response(JSON.stringify({ message: 'Name is required' }), {
-            status: 400,
-            headers: {
-              'Content-Type': 'application/json',
-            },
-          });
+      return new Response(JSON.stringify({ message: 'Name is required' }), {
+        status: 400,
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
     }
 
     const newCustomer = await prisma.customer.create({
@@ -65,6 +107,3 @@ export async function POST(request: Request) {
       },
     });
   } finally {
-    await prisma.$disconnect();
-  }
-}
